@@ -5,10 +5,3 @@ function isPalindrome(str) {
 }
 
 console.log(isPalindrome("madam"));
-
-function isletter(str) {
-  const reversed = str.split("").reverse().join("");
-  return str === reversed;
-}
-
-console.log(isletter("medem"));
