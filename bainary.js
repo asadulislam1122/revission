@@ -22,3 +22,19 @@ function bainarySearch(number, targetNumber) {
 }
 
 console.log(bainarySearch(number, targetNumber));
+
+// Chalange
+
+const num = [10, 20, 30, 40, 50];
+
+function search(num, target) {
+  for (let i = 0; i < num.length; i++) {
+    if (num[i] === target) {
+      return i;
+    }
+  }
+
+  return -1;
+}
+
+console.log(search(num, 40));
