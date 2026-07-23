@@ -38,3 +38,5 @@ function search(num, target) {
 }
 
 console.log(search(num, 40));
+
+// Ans = 3
