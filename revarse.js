@@ -7,3 +7,19 @@ function reverseString(str) {
 }
 
 console.log(reverseString("Hello World"));
+
+// Second problem
+
+function reverseWords(str) {
+  return str.split(" ").reverse().join(" ");
+}
+
+console.log(reverseWords("Hello World from JavaScript"));
+
+//  Third problem
+
+function revarsed(str) {
+  return str.split("").reverse().join("");
+}
+
+console.log(revarsed("Hello World"));
