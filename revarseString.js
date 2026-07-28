@@ -15,3 +15,14 @@ function revarseString(str) {
   return reversed;
 }
 console.log(revarseString("developer"));
+
+// Third example
+
+function revarseString(str) {
+  let reversed = "";
+  for (let c of str) {
+    reversed = c + reversed;
+  }
+  return reversed;
+}
+console.log(revarseString("amr sonar bangla ami tomake valobasi"));
