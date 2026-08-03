@@ -14,3 +14,13 @@ const revaseS = (str) => {
 };
 
 // console.log(revaseS("Programer"));
+
+const reverseString2 = (str) => {
+  let revarsed = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    revarsed += str[i];
+  }
+  return revarsed;
+};
+
+console.log(reverseString2("developer"));
