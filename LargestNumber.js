@@ -29,5 +29,5 @@ function secondlargestNumber(arr) {
   return secondLargest;
 }
 
-console.log(secondlargestNumber([50, 40, 30, 20])); // 40
-console.log(secondlargestNumber([10, 20, 30, 40, 50])); // 40
+console.log(secondlargestNumber([50, 40, 30, 20]));
+console.log(secondlargestNumber([10, 20, 30, 40, 50]));
