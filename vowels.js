@@ -33,3 +33,14 @@ const vowels2 = (str) => {
 };
 
 // console.log(vowels2("asaduLLah"));
+
+//  problem 3
+
+const isPlaindrome = (str) => {
+  str = str.toLowerCase();
+
+  const revarseStr = str.split("").reverse().join("");
+  return str === revarseStr;
+};
+
+console.log(isPlaindrome("madam"));
