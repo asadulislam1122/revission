@@ -52,7 +52,7 @@ const bigNumber = (arr) => {
   return biggestNumber;
 };
 
-console.log(bigNumber([11, 2, 3, 4, 5, 6, 7, 8, 9]));
+// console.log(bigNumber([11, 2, 3, 4, 5, 6, 7, 8, 9]));
 
 // problem 5
 
@@ -60,7 +60,7 @@ const bN = (a) => {
   const bNu = Math.max(...a);
   return bNu;
 };
-console.log(bN([111, 2, 3, 4, 5, 6, 7, 8, 9]));
+// console.log(bN([111, 2, 3, 4, 5, 6, 7, 8, 9]));
 
 // a = 10;
 // b = "10";
@@ -72,3 +72,9 @@ console.log(bN([111, 2, 3, 4, 5, 6, 7, 8, 9]));
 // *********************************************
 // ************************************************
 // problem 6
+
+const removeDuplicate = (arr) => {
+  const unickArr = [...new Set(arr)];
+  return unickArr;
+};
+console.log(removeDuplicate([1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3]));
