@@ -77,4 +77,29 @@ const removeDuplicate = (arr) => {
   const unickArr = [...new Set(arr)];
   return unickArr;
 };
-console.log(removeDuplicate([1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3]));
+// console.log(removeDuplicate([1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3]));
+
+// problem 7
+
+const fizzBuzz = (n) => {
+  for (let i = 1; i <= n; i++) {
+    // ৩ এবং ৫ দুটো দিয়েই বিভাজ্য কিনা (১৫ দিয়ে বিভাজ্য)
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log("FizzBuzz");
+    }
+    // শুধু ৩ দিয়ে বিভাজ্য
+    else if (i % 3 === 0) {
+      console.log("Fizz");
+    }
+    // শুধু ৫ দিয়ে বিভাজ্য
+    else if (i % 5 === 0) {
+      console.log("Buzz");
+    }
+    // কোনোটা দিয়েই বিভাজ্য না হলে সংখ্যাটি নিজে
+    else {
+      console.log(i);
+    }
+  }
+};
+
+fizzBuzz(15);
